@@ -1,8 +1,8 @@
 <% if @user.errors.any? %>
   <div id="error_messages">
-    <h2>Följande fel uppstod i formuläret:</h2>
+    <h2><%= pluralize(@user.errors.count, "fel") %> uppstod i formuläret:</h2>
     <ul>
-      <% @user.error.full_messages.each do |msg| %>
+      <% @user.errors.full_messages.each do |msg| %>
       <li><%= msg %></li>
       <% end %>
     </ul>
@@ -12,7 +12,7 @@
 <fieldset>
 <%= form_for @user do |f| %>
   <p><%= f.label :username %></p>
-  <p><%= f.text_field_tag :username %></p>
+  <p><%= f.text_field :username %></p>
   
   <p><%= f.label :email %></p>
   <p><%= f.email_field :email %></p>

@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   resources :users
   
   get 'apikeys' => 'apikeys#show', as: :apikey
+  
+  post 'login'  => 'users#login',  :as => "login"
+  get  'logout' => 'users#logout', as: :logout
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
