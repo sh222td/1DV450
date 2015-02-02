@@ -1,5 +1,8 @@
 class User < ActiveRecord::Base
-  has_secure_password
+  #Handles user security
+  has_secure_password :validations => false
+  #Makes sure that the email is saved with lowercase letters.
+  before_save { self.email = email.downcase }
   
   validates :username, 
             :presence => {:message => "Du måste ange ett användarnamn"},  

@@ -19,7 +19,7 @@ class UsersController < ApplicationController
     
   end
   
-  ##Inloggningsmethod
+  #Loginmethod
   
   def login
     u = User.find_by_email(params[:email])
@@ -27,10 +27,12 @@ class UsersController < ApplicationController
       session[:userid] = u.id
       redirect_to apikey_path
     else
-      flash[:notice] = "Failed"
+      flash[:danger] = "Felaktigt användarnamn/lösenord"
       redirect_to root_path
     end
   end
+  
+  #Logoutmethod
   
   def logout
     session[:userid] = nil
@@ -39,6 +41,7 @@ class UsersController < ApplicationController
   
   private
   
+  #Method for making sure all user settings are set.
   def user_params
     params.require(:user).permit(:username, :email, :password, :password_confirmation)
   end
