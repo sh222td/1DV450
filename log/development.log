@@ -11378,3 +11378,2012 @@ Started GET "/" for 194.47.173.1 at 2015-02-10 14:49:39 +0000
 Processing by UsersController#index as HTML
   Rendered users/index.html.erb within layouts/application (1.9ms)
 Completed 200 OK in 123ms (Views: 122.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 194.47.173.1 at 2015-02-10 15:12:41 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 150ms (Views: 149.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 194.47.173.1 at 2015-02-10 15:12:44 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrera"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 136ms (Views: 126.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:12:45 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:12:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:12:45 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:12:45 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:12:45 +0000
+
+
+Started GET "/users" for 194.47.173.1 at 2015-02-10 15:18:35 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 119ms (Views: 118.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:18:36 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:18:36 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:18:36 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:18:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:18:36 +0000
+
+
+Started GET "/users" for 194.47.173.1 at 2015-02-10 15:19:01 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 137ms (Views: 136.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:19:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:19:01 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:19:01 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:19:01 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:19:01 +0000
+
+
+Started GET "/users/new" for 194.47.173.1 at 2015-02-10 15:19:08 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:19:09 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 141ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:19:11 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 128ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 194.47.173.1 at 2015-02-10 15:19:12 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 122ms (Views: 121.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:19:13 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 128ms (Views: 127.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:19:15 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 116ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:19:17 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 114ms (Views: 113.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 194.47.173.1 at 2015-02-10 15:19:31 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"sara@mail.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'sara@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 82ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/apikeys" for 194.47.173.1 at 2015-02-10 15:19:31 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 135ms (Views: 133.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:19:31 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:19:31 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:19:31 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:19:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:19:31 +0000
+
+
+Started GET "/logout" for 194.47.173.1 at 2015-02-10 15:27:31 +0000
+Processing by UsersController#logout as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:27:31 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 143ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:29:37 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:29:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:29:37 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:29:37 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:29:37 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:29:37 +0000
+
+
+Started POST "/login" for 194.47.173.1 at 2015-02-10 15:29:49 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"sara@mail.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'sara@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 93ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/apikeys" for 194.47.173.1 at 2015-02-10 15:29:49 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 127ms (Views: 125.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:29:50 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:29:50 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:29:50 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:29:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:29:50 +0000
+
+
+Started GET "/logout" for 194.47.173.1 at 2015-02-10 15:29:51 +0000
+Processing by UsersController#logout as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:29:51 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 119ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:30:03 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 143ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:30:03 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:30:03 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:30:03 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:30:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:30:03 +0000
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:32:23 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 128ms (Views: 126.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:24 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:24 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:24 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:24 +0000
+
+
+Started POST "/login" for 194.47.173.1 at 2015-02-10 15:32:30 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"sara@mail.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'sara@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 91ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/apikeys" for 194.47.173.1 at 2015-02-10 15:32:30 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 130.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:30 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:30 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:30 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:30 +0000
+
+
+Started GET "/logout" for 194.47.173.1 at 2015-02-10 15:32:34 +0000
+Processing by UsersController#logout as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:32:34 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 133ms (Views: 132.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:32:37 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 127ms (Views: 126.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:37 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:37 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:37 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:32:37 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:36:35 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 119ms (Views: 118.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 194.47.173.1 at 2015-02-10 15:36:53 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 83ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/apikeys" for 194.47.173.1 at 2015-02-10 15:36:53 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 8]]
+  Rendered apikeys/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 121ms (Views: 119.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:36:54 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:36:54 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:36:54 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:36:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:36:54 +0000
+
+
+Started GET "/logout" for 194.47.173.1 at 2015-02-10 15:36:56 +0000
+Processing by UsersController#logout as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:36:56 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 131ms (Views: 129.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:36:58 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 377ms (Views: 376.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 194.47.173.1 at 2015-02-10 15:36:59 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:36:59 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 128ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:37:00 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:37:00 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:37:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:37:00 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:37:00 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:39:09 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 120ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 194.47.173.1 at 2015-02-10 15:39:10 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 6ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:39:10 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 153ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:39:10 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:39:10 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:39:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:39:10 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:39:10 +0000
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:41:52 +0000
+
+ArgumentError (Invalid route name, already in use: 'login' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  config/routes.rb:16:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.2ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:42:05 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 116ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:05 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:05 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:05 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:05 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:42:07 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 130ms (Views: 129.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 194.47.173.1 at 2015-02-10 15:42:08 +0000
+Processing by UsersController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  Rendered users/admin.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 123ms (Views: 121.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:08 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:08 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:08 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:08 +0000
+
+
+Started POST "/admin_login" for 194.47.173.1 at 2015-02-10 15:42:10 +0000
+Processing by UsersController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 126ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:10 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:10 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:10 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:10 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:10 +0000
+
+
+Started POST "/admin_login" for 194.47.173.1 at 2015-02-10 15:42:25 +0000
+Processing by UsersController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 136ms (Views: 135.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:25 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:25 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:25 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:42:25 +0000
+
+
+Started GET "/admin_login" for 194.47.173.1 at 2015-02-10 15:42:58 +0000
+
+ActionController::RoutingError (No route matches [GET] "/admin_login"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.6ms)
+
+
+Started GET "/admin_login" for 194.47.173.1 at 2015-02-10 15:43:53 +0000
+
+ActionController::RoutingError (No route matches [GET] "/admin_login"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.2ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:43:56 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 119ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:43:56 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:43:56 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:43:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:43:56 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:43:56 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:43:57 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 138ms (Views: 137.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 194.47.173.1 at 2015-02-10 15:43:59 +0000
+
+AbstractController::ActionNotFound (The action 'admin_login' could not be found for UsersController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+
+
+Started GET "/admin_login" for 194.47.173.1 at 2015-02-10 15:44:51 +0000
+
+ActionController::RoutingError (No route matches [GET] "/admin_login"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.6ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:45:20 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 119ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:45:21 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:45:21 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:45:21 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:45:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:45:21 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:45:22 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 147ms (Views: 146.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 194.47.173.1 at 2015-02-10 15:45:23 +0000
+
+AbstractController::ActionNotFound (The action 'admin_login' could not be found for UsersController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:47:51 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 119ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:47:51 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:47:51 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:47:51 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:47:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:47:51 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:47:52 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 131ms (Views: 130.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/adminlog" for 194.47.173.1 at 2015-02-10 15:47:53 +0000
+
+AbstractController::ActionNotFound (The action 'admin_login' could not be found for UsersController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/adminlog" for 194.47.173.1 at 2015-02-10 15:48:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/adminlog"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.5ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:48:25 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 135ms (Views: 134.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:48:25 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:48:25 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:48:25 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:48:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:48:25 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:48:27 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 124ms (Views: 123.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/adminlog" for 194.47.173.1 at 2015-02-10 15:48:27 +0000
+
+AbstractController::ActionNotFound (The action 'adminlogin' could not be found for UsersController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:50:32 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 129ms (Views: 128.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:50:32 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:50:32 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:50:32 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:50:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:50:32 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:50:33 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 157ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/adminlog" for 194.47.173.1 at 2015-02-10 15:50:34 +0000
+
+AbstractController::ActionNotFound (The action 'admin_login' could not be found for UsersController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:52:48 +0000
+
+SyntaxError (/home/action/1DV450/config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  post 'adminlog'     => 'users#admin_login'  :as =>  "admin_login"
+                                               ^):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.0) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.0) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.0) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.6ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:53:01 +0000
+
+SyntaxError (/home/action/1DV450/config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  post 'adminlog'     => 'users#admin_login'  :as =>  "adminlog"
+                                               ^):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.0) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.0) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.0) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.4ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:53:26 +0000
+
+SyntaxError (/home/action/1DV450/config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  post 'adminlog'     => 'users#admin_login'  :as =>  "login"
+                                               ^):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.0) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.0) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.0) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.0) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:54:42 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 120ms (Views: 119.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:54:43 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:54:43 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:54:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:54:43 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:54:43 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:54:44 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 136ms (Views: 135.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:55:02 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 125ms (Views: 124.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 194.47.173.1 at 2015-02-10 15:55:03 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 6ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:55:03 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 139ms (Views: 138.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:04 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:04 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:04 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:04 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:55:06 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 120ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 15:55:22 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 119ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:22 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:22 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:22 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:22 +0000
+
+
+Started POST "/adminlog" for 194.47.173.1 at 2015-02-10 15:55:23 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 23ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 15:55:24 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 124ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:24 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:24 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:24 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 15:55:24 +0000
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 16:00:31 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 126ms (Views: 125.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:00:31 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:00:31 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:00:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:00:31 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:00:31 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 16:00:32 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 133ms (Views: 131.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/adminlog" for 194.47.173.1 at 2015-02-10 16:00:33 +0000
+
+AbstractController::ActionNotFound (The action 'admin_login' could not be found for UsersController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.8ms)
+
+
+Started GET "/admin_login" for 194.47.173.1 at 2015-02-10 16:01:28 +0000
+
+ActionController::RoutingError (No route matches [GET] "/admin_login"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.7ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 16:01:36 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 117ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:01:37 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:01:37 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:01:37 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:01:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:01:37 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 16:01:38 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 129ms (Views: 128.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/adminlog" for 194.47.173.1 at 2015-02-10 16:01:48 +0000
+
+AbstractController::ActionNotFound (The action 'admin_login' could not be found for UsersController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 16:02:46 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 126ms (Views: 125.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:02:46 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:02:46 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:02:46 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:02:46 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:02:46 +0000
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 16:02:58 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 144ms (Views: 143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:02:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:02:58 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:02:58 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:02:58 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:02:58 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 16:03:00 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 143ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 194.47.173.1 at 2015-02-10 16:03:01 +0000
+
+AbstractController::ActionNotFound (The action 'admin_login' could not be found for UsersController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 16:10:53 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 119ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 16:10:54 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 133ms (Views: 132.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:55 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:55 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:55 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:55 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:55 +0000
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 16:10:56 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 117ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 194.47.173.1 at 2015-02-10 16:10:57 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 8ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 16:10:57 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 138ms (Views: 136.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:57 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:57 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:57 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:10:57 +0000
+
+
+Started POST "/admin_login" for 194.47.173.1 at 2015-02-10 16:11:00 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/admin_user" for 194.47.173.1 at 2015-02-10 16:11:00 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 136ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:00 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:00 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:00 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:00 +0000
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 16:11:06 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 116ms (Views: 115.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 194.47.173.1 at 2015-02-10 16:11:07 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 194.47.173.1 at 2015-02-10 16:11:07 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 127ms (Views: 125.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:07 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:07 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:07 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:07 +0000
+
+
+Started GET "/users/new" for 194.47.173.1 at 2015-02-10 16:11:08 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 125ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 194.47.173.1 at 2015-02-10 16:11:10 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrera"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = '' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 148ms (Views: 137.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:10 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:10 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:10 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:10 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:11:10 +0000
+
+
+Started GET "/users" for 194.47.173.1 at 2015-02-10 16:13:07 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 120ms (Views: 119.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:07 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:07 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:07 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:07 +0000
+
+
+Started GET "/users/new" for 194.47.173.1 at 2015-02-10 16:13:09 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 140ms (Views: 134.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users" for 194.47.173.1 at 2015-02-10 16:13:10 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0EulqMOHS5PUclWWhZQU94wQDQbLtoKJCwzftZZt59U=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrera"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = '' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 130ms (Views: 120.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:10 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:10 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:10 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:10 +0000

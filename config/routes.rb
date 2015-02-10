@@ -11,9 +11,10 @@ Rails.application.routes.draw do
   get 'removeAPI' => 'apikeys#remove' 
   get 'addAPI'    => 'apikeys#add'
   
-  get  'admin_user' => 'users#admin'
-  post 'login'      => 'users#login',  :as => "login"
-  get  'logout'     => 'users#logout', as:    :logout
+  get  'admin_user'   => 'users#admin'
+  post 'admin_login'  => 'users#admin_login'
+  post 'login'        => 'users#login',        :as => "login"
+  get  'logout'       => 'users#logout',       as:    :logout
 
   
   # Example of regular route:

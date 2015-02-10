@@ -20,7 +20,20 @@ class UsersController < ApplicationController
     
   end
   
-  #Loginmethod
+  # Loginmethod for Admin
+  
+  def admin_login
+    u = User.find_by_email(params[:email])
+    if u && u.authenticate(params[:password])
+      session[:userid] = u.id
+      redirect_to apikey_path
+    else
+      flash[:danger] = "Felaktigt användarnamn/lösenord"
+      redirect_to admin_user_path
+    end
+  end
+  
+  # Loginmethod
   
   def login
     u = User.find_by_email(params[:email])
@@ -33,16 +46,17 @@ class UsersController < ApplicationController
     end
   end
   
-  #Logoutmethod
+  # Logoutmethod
   
   def logout
+    flash[:warning] = "Du är nu utloggad"
     session[:userid] = nil
-    redirect_to root_path, :notice => "Du är nu utloggad!"
+    redirect_to root_path
   end
   
   private
   
-  #Method for making sure all user settings are set.
+  # Method for making sure all user settings are set.
   def user_params
     params.require(:user).permit(:username, :email, :password, :password_confirmation)
   end

@@ -4,16 +4,6 @@
   </div>
 </div>
 
-<% if @user.errors.any? %>
-  <div class="alert alert-danger" >
-    <ul>
-      <% @user.errors.messages.each do |attr, msg| %>
-      <li><%= msg %></li>
-      <% end %>
-    </ul>
-  </div>
-<% end %>
-
 <div class="row">
   <div class="col-md-6 col-md-offset-5">
 <%= form_for @user do |f| %>
@@ -42,6 +32,8 @@
     </div>
   
   <p><%= f.submit "Registrera" %></p>
+    
+    <%= link_to "Tillbaka till inloggningsformuläret", root_path %>
   
   <% end %>
   </div>

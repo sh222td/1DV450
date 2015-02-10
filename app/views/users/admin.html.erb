@@ -12,7 +12,7 @@
 
 <div class="row">
   <div class="col-md-6 col-md-offset-5">
-  <%= form_tag(login_path, method: "post")  do %>
+  <%= form_tag(admin_login_path, method: "post")  do %>
   <p><%= label_tag(:email, "E-mail") %></p>
   <p><%= email_field_tag(:email) %></p>
   
@@ -24,7 +24,6 @@
   
   <p><%= submit_tag("Logga in") %></p>
   <% end %>
-
 
 <%= link_to "Logga in som vanlig användare", root_path %><br>
 <%= link_to "Registrera ny användare", new_user_path %>
