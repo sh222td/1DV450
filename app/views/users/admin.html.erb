@@ -1,6 +1,6 @@
 <div class="center jumbotron">
   <div class="text-center">
-    <h1>Inloggning</h1>
+    <h1>Inloggning som Admin</h1>
   </div>
 </div>
 
@@ -18,11 +18,15 @@
   
   <p><%= label_tag(:password, "Lösenord") %></p>
   <p><%= password_field_tag(:password) %></p>
+    
+  <p><%= label_tag(:admin_auth, "Adminkod") %></p>
+  <p><%= password_field_tag(:admin_auth) %></p>
   
   <p><%= submit_tag("Logga in") %></p>
   <% end %>
 
-<%= link_to "Logga in som Admin", admin_user_path %>
-<%= link_to "Registrera ny användare", new_user_path %><br>
+
+<%= link_to "Logga in som vanlig användare", root_path %><br>
+<%= link_to "Registrera ny användare", new_user_path %>
       </div>
 </div>

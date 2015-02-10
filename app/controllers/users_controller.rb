@@ -9,6 +9,7 @@ class UsersController < ApplicationController
   
   def create
     @user = User.new(user_params)
+    @user.api_key = SecureRandom.hex
     
     if @user.save
       session[:userid] = @user.id
@@ -45,4 +46,9 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:username, :email, :password, :password_confirmation)
   end
+  
+  def admin
+    redirect_to admin_user_path  
+  end
+  
 end

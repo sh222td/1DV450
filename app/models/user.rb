@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
   validates :username, 
             :presence => {:message => "Du måste ange ett användarnamn"},  
             :uniqueness => {:message => "Användarnamnet finns redan, välj ett annat."}, 
-            length: { minimum: 5, message: "Användarnamnet är för kort, ange minst 6 tecken." }, 
+            length: { minimum: 3, message: "Användarnamnet är för kort, ange minst 3 tecken." }, 
             format: { with: /\A[a-zåäöA-ZÅÄÖ]+\z/, message: "Fältet 'användarnamn' innehåller otillåtna karaktärer" }
   
   validates :email, 

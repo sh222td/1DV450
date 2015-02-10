@@ -1,3 +1,22 @@
-<h1>Din nyckel</h1>
+<div class ="col-md-offset-2">
+    <button type="button" class="btn btn-info" ><%= link_to "Logga ut", logout_path %></button>
+</div>
 
-<%= link_to "Logga ut", logout_path %>
+<div class="col-md-6 col-md-offset-5">
+  <h1>Din nyckel</h1>
+</div>
+
+<div class="col-md-6 col-md-offset-5">
+   <% if current_user.present? %>
+  <p><%= current_user.api_key %></p>
+    <% end %>
+</div>
+
+
+<div class ="col-md-6 col-md-offset-5">
+  <% if current_user.api_key != nil %>
+  <button type="button" class="btn btn-warning" ><%= link_to "Ta bort API-nyckel", removeAPI_path , method: :get %></button>
+  <% else %>
+  <button type="button" class="btn btn-success" ><%= link_to "Lägg till ny API-nyckel", addAPI_path , method: :get %></button>
+  <% end %>
+</div>
