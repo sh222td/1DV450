@@ -13387,3 +13387,1525 @@ Started GET "/assets/application.js?body=1" for 194.47.173.1 at 2015-02-10 16:13
 
 
 Started GET "/assets/users.js?body=1" for 194.47.173.1 at 2015-02-10 16:13:10 +0000
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 17:31:00 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 292ms (Views: 273.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 85.226.127.241 at 2015-02-10 17:31:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/assets/users.js?body=1" for 85.226.127.241 at 2015-02-10 17:31:01 +0000
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:31:08 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 126ms (Views: 125.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:37:34 +0000
+
+SyntaxError (/home/action/1DV450/app/controllers/users_controller.rb:28: syntax error, unexpected tIDENTIFIER, expecting ')'
+      session[:userid] = u.id
+             ^
+/home/action/1DV450/app/controllers/users_controller.rb:68: syntax error, unexpected keyword_end, expecting end-of-input):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.7ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 17:37:51 +0000
+
+SyntaxError (/home/action/1DV450/app/controllers/users_controller.rb:28: syntax error, unexpected tIDENTIFIER, expecting ')'
+      session[:userid] = u.id
+             ^
+/home/action/1DV450/app/controllers/users_controller.rb:68: syntax error, unexpected keyword_end, expecting end-of-input):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.0ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 17:38:21 +0000
+
+SyntaxError (/home/action/1DV450/app/controllers/users_controller.rb:28: syntax error, unexpected tIDENTIFIER, expecting ')'
+      session[:userid] = u.id
+             ^
+/home/action/1DV450/app/controllers/users_controller.rb:68: syntax error, unexpected keyword_end, expecting end-of-input):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.5ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 17:39:39 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 130ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 85.226.127.241 at 2015-02-10 17:39:39 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:39 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:39 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:39 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:39 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:39 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/users.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 85.226.127.241 at 2015-02-10 17:39:40 +0000
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:39:44 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 138ms (Views: 137.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:39:46 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 11ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:39:46 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 123ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:41:05 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 167ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:41:05 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 125ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:41:22 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 162ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:41:23 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 8]]
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:42:36 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 82ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:42:36 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 132ms (Views: 131.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:42:51 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 89ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:42:52 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 120ms (Views: 119.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 17:45:34 +0000
+Processing by ApikeysController#show as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 17:45:35 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 127ms (Views: 125.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:45:39 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 126ms (Views: 125.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:46:06 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 127ms (Views: 126.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:46:24 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 171ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:46:24 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 122ms (Views: 121.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:46:43 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 125ms (Views: 124.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:46:50 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 91ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 17:46:50 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 8]]
+  Rendered apikeys/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 130ms (Views: 125.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/logout" for 85.226.127.241 at 2015-02-10 17:46:56 +0000
+Processing by UsersController#logout as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 17:46:56 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 129ms (Views: 128.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:46:59 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 130ms (Views: 129.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:47:59 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 130ms (Views: 129.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:48:57 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fa77e9cbd78>:0x007fa77e9cb2b0>):
+    20:   <p><%= password_field_tag(:password) %></p>
+    21:     
+    22:   <p><%= label_tag(:admin_auth, "Adminkod") %></p>
+    23:   <p><%= f.text_field(:admin_auth) %></p>
+    24:   
+    25:   <p><%= submit_tag("Logga in") %></p>
+    26:   <% end %>
+  app/views/users/admin.html.erb:23:in `block in _app_views_users_admin_html_erb___359892289312099447_70178680229400'
+  app/views/users/admin.html.erb:15:in `_app_views_users_admin_html_erb___359892289312099447_70178680229400'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.6ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:49:16 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2..3)):
+    20:   <p><%= password_field_tag(:password) %></p>
+    21:     
+    22:   <p><%= label_tag(:admin_auth, "Adminkod") %></p>
+    23:   <p><%= text_field(:admin_auth) %></p>
+    24:   
+    25:   <p><%= submit_tag("Logga in") %></p>
+    26:   <% end %>
+  app/views/users/admin.html.erb:23:in `block in _app_views_users_admin_html_erb___359892289312099447_70178683746920'
+  app/views/users/admin.html.erb:15:in `_app_views_users_admin_html_erb___359892289312099447_70178683746920'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.6ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:49:44 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 128ms (Views: 127.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:49:56 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 170ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:49:56 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 127ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:50:23 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 127ms (Views: 126.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:50:38 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 162ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:50:38 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 124ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:51:42 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 138ms (Views: 137.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:51:52 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 171ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:51:52 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 127ms (Views: 126.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:54:45 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 127ms (Views: 126.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 17:54:58 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 177ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 17:54:58 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 127ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 18:05:21 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 130ms (Views: 129.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 85.226.127.241 at 2015-02-10 18:05:39 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"sara@mail.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'sara@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 91ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:05:39 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 126.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/logout" for 85.226.127.241 at 2015-02-10 18:05:46 +0000
+Processing by UsersController#logout as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 18:05:46 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 126ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 18:05:50 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 131ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 18:08:37 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 133ms (Views: 131.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 18:08:46 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1
+Completed 500 Internal Server Error in 91ms
+
+NoMethodError (undefined method `params' for #<User:0x007fa77f17ebd8>):
+  app/controllers/users_controller.rb:27:in `admin_login'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 18:12:17 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 132ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 18:12:19 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 126ms (Views: 125.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 18:12:22 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 7ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 18:12:22 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 130ms (Views: 129.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 18:12:34 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1
+Completed 500 Internal Server Error in 86ms
+
+NoMethodError (undefined method `params' for #<User:0x007fa76c052fb0>):
+  app/controllers/users_controller.rb:27:in `admin_login'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/admin" for 85.226.127.241 at 2015-02-10 18:13:19 +0000
+
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.3ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 18:13:22 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 134ms (Views: 132.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 18:13:25 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 128ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 18:13:28 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"", "password"=>"[FILTERED]", "admin_auth"=>"", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/admin_user
+Completed 302 Found in 6ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/admin_user" for 85.226.127.241 at 2015-02-10 18:13:28 +0000
+Processing by UsersController#admin as HTML
+  Rendered users/admin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 131ms (Views: 130.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin_login" for 85.226.127.241 at 2015-02-10 18:13:38 +0000
+Processing by UsersController#admin_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"admin@mail.com", "password"=>"[FILTERED]", "admin_auth"=>"ADMIN1337", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@mail.com' LIMIT 1
+Completed 500 Internal Server Error in 89ms
+
+NoMethodError (undefined method `params' for #<User:0x007fa77ed6a6c8>):
+  app/controllers/users_controller.rb:27:in `admin_login'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.2ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 18:22:12 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 130ms (Views: 129.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 85.226.127.241 at 2015-02-10 18:22:19 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"sara@mail.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'sara@mail.com' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 83ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:22:20 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/home/action/1DV450/app/views/apikeys/show.html.erb:30: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/action/1DV450/app/views/apikeys/show.html.erb:32: syntax error, unexpected end-of-input, expecting keyword_end):
+  actionview (4.1.0) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.7ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:22:43 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `attributes' for nil:NilClass):
+    22: </div>
+    23: <% else %>
+    24:   <div class ="col-md-6 col-md-offset-5">
+    25:     <% @User.attributes.each do |attr_username, attr_api_key| %>
+    26:     <p><%= attr_username %>: <%= attr_api_key %></p>
+    27:     <% end %>
+    28: </div>
+  app/views/apikeys/show.html.erb:25:in `_app_views_apikeys_show_html_erb___3490651406007642424_70178524438860'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:27:42 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `attributes' for nil:NilClass):
+    22: </div>
+    23: <% else %>
+    24:   <div class ="col-md-6 col-md-offset-5">
+    25:     <% @user.attributes.each do |attr_username, attr_api_key| %>
+    26:     <p><%= attr_username %>: <%= attr_api_key %></p>
+    27:     <% end %>
+    28: </div>
+  app/views/apikeys/show.html.erb:25:in `_app_views_apikeys_show_html_erb___3490651406007642424_70178683307500'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.9ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:37:53 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    22: </div>
+    23: <% else %>
+    24:   <div class ="col-md-6 col-md-offset-5">
+    25:     <% @user.each do |attr_username, attr_api_key| %>
+    26:     <p><%= attr_username %>: <%= attr_api_key %></p>
+    27:     <% end %>
+    28: </div>
+  app/views/apikeys/show.html.erb:25:in `_app_views_apikeys_show_html_erb___3490651406007642424_70178678977540'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.8ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:38:18 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `attr' for nil:NilClass):
+    22: </div>
+    23: <% else %>
+    24:   <div class ="col-md-6 col-md-offset-5">
+    25:     <% @user.attr.each do |attr_username, attr_api_key| %>
+    26:     <p><%= attr_username %>: <%= attr_api_key %></p>
+    27:     <% end %>
+    28: </div>
+  app/views/apikeys/show.html.erb:25:in `_app_views_apikeys_show_html_erb___3490651406007642424_70178677727420'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.0ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:38:22 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `attr' for nil:NilClass):
+    22: </div>
+    23: <% else %>
+    24:   <div class ="col-md-6 col-md-offset-5">
+    25:     <% @user.attr.each do |attr_username, attr_api_key| %>
+    26:     <p><%= attr_username %>: <%= attr_api_key %></p>
+    27:     <% end %>
+    28: </div>
+  app/views/apikeys/show.html.erb:25:in `_app_views_apikeys_show_html_erb___3490651406007642424_70178677727420'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.9ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:41:33 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `attributes' for nil:NilClass):
+    22: </div>
+    23: <% else %>
+    24:   <div class ="col-md-6 col-md-offset-5">
+    25:     <% @user.attributes.each do |attr_username, attr_api_key| %>
+    26:     <p><%= attr_username %>: <%= attr_api_key %></p>
+    27:     <% end %>
+    28: </div>
+  app/views/apikeys/show.html.erb:25:in `_app_views_apikeys_show_html_erb___3490651406007642424_70178683773480'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.8ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:44:52 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `all' for nil:NilClass):
+    22: </div>
+    23: <% else %>
+    24:   <div class ="col-md-6 col-md-offset-5">
+    25:     <% @user.all.each do |attr_username, attr_api_key| %>
+    26:     <p><%= attr_username %>: <%= attr_api_key %></p>
+    27:     <% end %>
+    28: </div>
+  app/views/apikeys/show.html.erb:25:in `_app_views_apikeys_show_html_erb___3490651406007642424_70178681534000'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.2ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:47:30 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    22: </div>
+    23: <% else %>
+    24:   <div class ="col-md-6 col-md-offset-5">
+    25:     <% @users.each do |user| %>
+    26:     <p><%= user.username %>: <%= user.api_key %></p>
+    27:     <% end %>
+    28: </div>
+  app/views/apikeys/show.html.erb:25:in `_app_views_apikeys_show_html_erb___3490651406007642424_70178677940240'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.8ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 18:55:52 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered apikeys/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    22: </div>
+    23: <% else %>
+    24:   <div class ="col-md-6 col-md-offset-5">
+    25:     <% @users.each do |user| %>
+    26:     <p><%= user.username %>: <%= user.api_key %></p>
+    27:     <% end %>
+    28: </div>
+  app/views/apikeys/show.html.erb:25:in `_app_views_apikeys_show_html_erb___3490651406007642424_70178680605820'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.7ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:07:45 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 144ms (Views: 138.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:08:54 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 164ms (Views: 162.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:09:40 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 142ms (Views: 140.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:10:05 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 127ms (Views: 125.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:16:59 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 141ms (Views: 134.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:17:12 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 131ms (Views: 129.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:18:44 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 156ms (Views: 153.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:21:20 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 131ms (Views: 129.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/removeAPI" for 85.226.127.241 at 2015-02-10 19:21:23 +0000
+Processing by ApikeysController#remove as HTML
+  Parameters: {"authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "api_key" = ?, "updated_at" = ? WHERE "users"."id" = 7  [["api_key", nil], ["updated_at", "2015-02-10 19:21:23.233791"]]
+  [1m[36m (27.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 32ms (ActiveRecord: 28.3ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:21:23 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 126ms (Views: 124.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/removeAPI" for 85.226.127.241 at 2015-02-10 19:21:25 +0000
+Processing by ApikeysController#remove as HTML
+  Parameters: {"authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:21:26 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered apikeys/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 128ms (Views: 125.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/removeAPI" for 85.226.127.241 at 2015-02-10 19:21:28 +0000
+Processing by ApikeysController#remove as HTML
+  Parameters: {"authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:21:28 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 130ms (Views: 128.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/removeAPI" for 85.226.127.241 at 2015-02-10 19:21:30 +0000
+Processing by ApikeysController#remove as HTML
+  Parameters: {"authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:21:30 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered apikeys/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 137ms (Views: 135.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/logout" for 85.226.127.241 at 2015-02-10 19:21:37 +0000
+Processing by UsersController#logout as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 19:21:37 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 139ms (Views: 138.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 85.226.127.241 at 2015-02-10 19:21:51 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"jonas@mail.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'jonas@mail.com' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 115ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:21:51 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 130ms (Views: 128.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:22:54 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 139ms (Views: 137.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/logout" for 85.226.127.241 at 2015-02-10 19:22:56 +0000
+Processing by UsersController#logout as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 19:22:57 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 148ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 85.226.127.241 at 2015-02-10 19:23:06 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"sara@mail.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'sara@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 105ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:23:07 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mUser Load (8.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered apikeys/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 149ms (Views: 139.5ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:23:19 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered apikeys/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 167ms (Views: 160.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:23:23 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered apikeys/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 126ms (Views: 124.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/logout" for 85.226.127.241 at 2015-02-10 19:24:16 +0000
+Processing by UsersController#logout as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 19:24:16 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 125ms (Views: 124.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 85.226.127.241 at 2015-02-10 19:24:24 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"jonas@mail.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'jonas@mail.com' LIMIT 1[0m
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 85ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:24:24 +0000
+Processing by ApikeysController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered apikeys/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 131ms (Views: 129.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/logout" for 85.226.127.241 at 2015-02-10 19:31:08 +0000
+Processing by UsersController#logout as HTML
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 85.226.127.241 at 2015-02-10 19:31:08 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 129ms (Views: 128.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 85.226.127.241 at 2015-02-10 19:31:15 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHRsr5809FtgAVdSrXq1xsyS/HcM7hsnolq0BdNBAFE=", "email"=>"jonas@mail.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'jonas@mail.com' LIMIT 1
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 82ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:31:15 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered apikeys/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 133ms (Views: 130.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/apikeys" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered apikeys/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 126ms (Views: 124.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/application.css?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:46 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:47 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:47 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:47 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:47 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:47 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:47 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:47 +0000
+
+
+Started GET "/assets/users.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:47 +0000
+
+
+Started GET "/assets/application.js?body=1" for 85.226.127.241 at 2015-02-10 19:33:47 +0000

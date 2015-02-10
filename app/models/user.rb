@@ -23,4 +23,5 @@ class User < ActiveRecord::Base
   
   validates :password_confirmation, 
             :presence => {:message => "Du måste upprepa ditt lösenord."}
+  
 end

@@ -10,6 +10,10 @@ class ApikeysController < ApplicationController
     redirect_to apikey_path
   end
   
+  def admin_api_remove
+    
+  end
+  
   def add
     current_user.update_attribute(:api_key, SecureRandom.hex)
     redirect_to apikey_path

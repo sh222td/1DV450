@@ -2,6 +2,7 @@
     <button type="button" class="btn btn-info" ><%= link_to "Logga ut", logout_path %></button>
 </div>
 
+<% if current_user.admin_auth = nil %>
 <div class="col-md-6 col-md-offset-5">
   <h1>Din nyckel</h1>
 </div>
@@ -12,7 +13,6 @@
     <% end %>
 </div>
 
-
 <div class ="col-md-6 col-md-offset-5">
   <% if current_user.api_key != nil %>
   <button type="button" class="btn btn-warning" ><%= link_to "Ta bort API-nyckel", removeAPI_path , method: :get %></button>
@@ -20,3 +20,11 @@
   <button type="button" class="btn btn-success" ><%= link_to "Lägg till ny API-nyckel", addAPI_path , method: :get %></button>
   <% end %>
 </div>
+<% else %>
+  <div class ="col-md-6 col-md-offset-5">
+    <% User.all.each do |user| %>
+    <p>Användarnamn: <%= user.username %></p>
+    <p>API nyckel: <%= user.api_key %>  <%= link_to "X", removeAPI_path , method: :get %></p>
+    <% end %>
+  </div>
+<% end %>

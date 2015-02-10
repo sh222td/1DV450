@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def index
-    
+    @users = User.all
   end
   
   def new
@@ -17,18 +17,17 @@ class UsersController < ApplicationController
     else
       render :action => "new"
     end
-    
   end
   
   # Loginmethod for Admin
   
   def admin_login
     u = User.find_by_email(params[:email])
-    if u && u.authenticate(params[:password])
+    if u && u.authenticate(params[:password]) && u.params[:admin_auth]
       session[:userid] = u.id
       redirect_to apikey_path
     else
-      flash[:danger] = "Felaktigt användarnamn/lösenord"
+      flash[:danger] = "Felaktigt användarnamn/lösenord/adminkod!"
       redirect_to admin_user_path
     end
   end
@@ -41,7 +40,7 @@ class UsersController < ApplicationController
       session[:userid] = u.id
       redirect_to apikey_path
     else
-      flash[:danger] = "Felaktigt användarnamn/lösenord"
+      flash[:danger] = "Felaktigt användarnamn/lösenord!"
       redirect_to root_path
     end
   end
