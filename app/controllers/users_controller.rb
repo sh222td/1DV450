@@ -7,6 +7,7 @@ class UsersController < ApplicationController
     @user = User.new
   end
   
+  # Creates a new user
   def create
     @user = User.new(user_params)
     @user.api_key = SecureRandom.hex
@@ -19,21 +20,7 @@ class UsersController < ApplicationController
     end
   end
   
-  # Loginmethod for Admin
-  
-  def admin_login
-    u = User.find_by_email(params[:email])
-    if u && u.authenticate(params[:password]) && u.params[:admin_auth]
-      session[:userid] = u.id
-      redirect_to apikey_path
-    else
-      flash[:danger] = "Felaktigt användarnamn/lösenord/adminkod!"
-      redirect_to admin_user_path
-    end
-  end
-  
   # Loginmethod
-  
   def login
     u = User.find_by_email(params[:email])
     if u && u.authenticate(params[:password])
@@ -46,11 +33,17 @@ class UsersController < ApplicationController
   end
   
   # Logoutmethod
-  
   def logout
     flash[:warning] = "Du är nu utloggad"
     session[:userid] = nil
     redirect_to root_path
+  end
+  
+  # Method for removing API-keys
+  def destroy
+    @user = User.find(params[:id])
+    @user.update_attribute(:api_key, nil)
+    redirect_to apikey_path
   end
   
   private
@@ -58,10 +51,6 @@ class UsersController < ApplicationController
   # Method for making sure all user settings are set.
   def user_params
     params.require(:user).permit(:username, :email, :password, :password_confirmation)
-  end
-  
-  def admin
-    redirect_to admin_user_path  
   end
   
 end
